@@ -64,7 +64,7 @@ pipeline {
 
                     echo "Building image with this Jenkins build number..."
 
-                    docker build --pull \
+                    docker build \
                       -t "$IMAGE:build-$BUILD_NUMBER" \
                       -t "$IMAGE:latest" .
 
