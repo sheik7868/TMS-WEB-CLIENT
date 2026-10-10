@@ -12,7 +12,7 @@ pipeline {
         GIT_BRANCH = 'feature_fc_sushma'
 
         // Harbor
-        HARBOR_REGISTRY = 'localhost:8081'
+        HARBOR_REGISTRY = '172.28.63.77:8081'
         HARBOR_API = 'http://localhost:8081/api/v2.0'
         HARBOR_PROJECT = 'tms-project'
         IMAGE_NAME = 'tms-web'
