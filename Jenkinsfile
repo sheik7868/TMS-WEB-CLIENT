@@ -125,8 +125,8 @@ pipeline {
                         command -v curl >/dev/null
                         command -v jq >/dev/null
 
-                        REPO="$HARBOR_API/projects/$HARBOR_PROJECT/repositories/$IMAGE_NAME"
-                        ARTIFACTS="$REPO/artifacts"
+                        REPO=http://172.28.63.77:8081/api/v2.0/projects/tms-project/repositories/tms-web
+                        ARTIFACTS=http://172.28.63.77:8081/api/v2.0/projects/tms-project/repositories/tms-web/artifacts
 
                         echo "Getting Harbor artifacts..."
 
