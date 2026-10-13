@@ -16,7 +16,7 @@ pipeline {
         HARBOR_API = 'http://localhost:8081/api/v2.0'
         HARBOR_PROJECT = 'tms-project'
         IMAGE_NAME = 'tms-web'
-        KEEP_IMAGES = '4'
+        KEEP_IMAGES = '5'
 
         // Local application
         CONTAINER_NAME = 'tms-container'
